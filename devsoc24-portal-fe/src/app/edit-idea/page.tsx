@@ -13,10 +13,10 @@ export default function Page() {
                 <Logo className="h-9/10 w-auto" />
                 <Image src={Dashtitle as HTMLImageElement} alt="title" />
             </div>
-            <div className="flex h-[100vh] w-[4.7rem] max-[445px]:w-[3.7rem] items-start justify-center  gap-x-8 bg-background px-6 py-2 pt-12">
+            {/* <div className="flex h-[100vh] w-[4.7rem] max-[445px]:w-[3.7rem] items-start justify-center  gap-x-8 bg-background px-6 py-2 pt-12">
                 <Image src={active as HTMLImageElement} alt="title" className="scale-150 max-[445px]:scale-[3.5]" />
-            </div>
-            <div className="mt-[11vh] ml-[4.7rem] max-[445px]:ml-[3.7rem] absolute pt-5 pl-5 bg-[#F4F5FA] w-[91.9vw] flex flex-col max-[931px]:justify-center  ">
+            </div> */}
+            <div className="mt-[11vh] pl-[3rem] max-[445px]:pl-[2rem] absolute pt-5  bg-[#F4F5FA] w-[92.5vw] max-[931px]:w-[100vw] flex flex-col max-[931px]:justify-center  ">
                 <p className="text-black text-4xl font-medium mb-4">Edit Your Idea For Devsoc24</p>
                 <EditIdeaForm />
             </div>
